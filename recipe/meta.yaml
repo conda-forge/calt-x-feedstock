@@ -22,7 +22,7 @@ requirements:
     - setuptools >=65
     - pip
   run:
-    - python >={{ python_min }},<3.14
+    - python >={{ python_min }},<3.13
     - transformers >=4.49.0
     - omegaconf >=2.3.0
     - pytorch >=2.6.0
