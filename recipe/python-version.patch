@@ -1,0 +1,11 @@
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -6,7 +6,7 @@
+ version = "1.1.0"
+ description = "A library for computational algebra using Transformers"
+ readme = "README.md"
+-requires-python = ">=3.10,<3.13"
++requires-python = ">=3.11,<3.14"
+ authors = [
+   {name = "Hiroshi Kera", email = "kera.hiroshi@gmail.com"},
+   {name = "Yuta Sato", email = "sato.yuta@gmail.com"},

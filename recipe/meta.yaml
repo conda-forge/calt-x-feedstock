@@ -1,5 +1,5 @@
 {% set version = "1.1.0" %}
-{% set python_min = "3.10" %}
+{% set python_min = "3.11" %}
 
 package:
   name: "calt-x"
@@ -8,6 +8,8 @@ package:
 source:
   url: https://pypi.org/packages/source/c/calt-x/calt_x-{{ version }}.tar.gz
   sha256: 54940328b3759ce1b0b7bf9c21d386559a7b164d6b949df3a412724bd74649e7
+  patches:
+    - python-version.patch
 
 build:
   noarch: python
@@ -20,7 +22,7 @@ requirements:
     - setuptools >=65
     - pip
   run:
-    - python >={{ python_min }}
+    - python >={{ python_min }},<3.14
     - transformers >=4.49.0
     - omegaconf >=2.3.0
     - pytorch >=2.6.0
