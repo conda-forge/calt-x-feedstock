@@ -1,4 +1,4 @@
-{% set version = "1.2.0" %}
+{% set version = "1.3.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/calt-x/calt_x-{{ version }}.tar.gz
-  sha256: 34905597be9ce040d1b8c996be28a6a1ccee99d62790d17b64428ea5e3c8ede1
+  sha256: 11bc78e7606f758fbf0bc64b653962b55b83f5224a9f5324a343ffe690586978
 
 build:
   noarch: python
