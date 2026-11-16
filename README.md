@@ -191,8 +191,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@shun-arkw](https://github.com/shun-arkw/)
 * [@sugarl-sudo](https://github.com/sugarl-sudo/)
-
-
-<!-- dummy commit to enable rerendering -->
 
